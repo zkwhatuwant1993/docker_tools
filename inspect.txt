@@ -1,0 +1,115 @@
+[
+    {
+        "Id": "sha256:311b8d1d7147fa8c501f4b0862bc1a45599cfa5e94f1b79a8985af7e26809940",
+        "RepoTags": [
+            "hello:latest"
+        ],
+        "RepoDigests": [],
+        "Parent": "sha256:fcb5d90df77c4dfd2411bf9ff8fb85043c7c24036e7dc5ad5906d9175cf0c86a",
+        "Comment": "",
+        "Created": "2019-08-20T08:33:38.179028888Z",
+        "Container": "ca97f927f58d27f35a11b0cec2adbbf1d56b76e5b2076b5321f1714b3e013b7e",
+        "ContainerConfig": {
+            "Hostname": "ca97f927f58d",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "80/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "LANG=C.UTF-8",
+                "PYTHONIOENCODING=UTF-8",
+                "GPG_KEY=C01E1CAD5EA2C4F0B8E3571504C367C218ADD4FF",
+                "PYTHON_VERSION=2.7.16",
+                "PYTHON_PIP_VERSION=19.2.2",
+                "PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/0c72a3b4ece313faccb446a96c84770ccedc5ec5/get-pip.py",
+                "PYTHON_GET_PIP_SHA256=201edc6df416da971e64cc94992d2dd24bc328bada7444f0c4f2031ae31e8dad",
+                "NAME=World"
+            ],
+            "Cmd": [
+                "/bin/sh",
+                "-c",
+                "#(nop) ",
+                "CMD [\"python\" \"app.py\"]"
+            ],
+            "Image": "sha256:fcb5d90df77c4dfd2411bf9ff8fb85043c7c24036e7dc5ad5906d9175cf0c86a",
+            "Volumes": null,
+            "WorkingDir": "/app",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": {}
+        },
+        "DockerVersion": "19.03.1",
+        "Author": "",
+        "Config": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "80/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "LANG=C.UTF-8",
+                "PYTHONIOENCODING=UTF-8",
+                "GPG_KEY=C01E1CAD5EA2C4F0B8E3571504C367C218ADD4FF",
+                "PYTHON_VERSION=2.7.16",
+                "PYTHON_PIP_VERSION=19.2.2",
+                "PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/0c72a3b4ece313faccb446a96c84770ccedc5ec5/get-pip.py",
+                "PYTHON_GET_PIP_SHA256=201edc6df416da971e64cc94992d2dd24bc328bada7444f0c4f2031ae31e8dad",
+                "NAME=World"
+            ],
+            "Cmd": [
+                "python",
+                "app.py"
+            ],
+            "Image": "sha256:fcb5d90df77c4dfd2411bf9ff8fb85043c7c24036e7dc5ad5906d9175cf0c86a",
+            "Volumes": null,
+            "WorkingDir": "/app",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": null
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 148325331,
+        "VirtualSize": 148325331,
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/3d68f0383138901c4ccfb2464893f08405e544362639a907e2caf2b0ddf99f87/diff:/var/lib/docker/overlay2/fbe1f60704dd1263e02f73eb24fad4e67d7b97579dcce1d1f099aa4986d7cb05/diff:/var/lib/docker/overlay2/e5a3b806bf0c61cd0c8b34f407366e2856fc8e546c723335f1b85dedee4d2e6e/diff:/var/lib/docker/overlay2/eaff956be3007da8a219f81cb09b12dfd3a6bed05c4429a4441da59cb04e71c1/diff:/var/lib/docker/overlay2/0509dc402ac101471c856e5fd212782bd3750953c67bfae2c69571e12f2d7e94/diff:/var/lib/docker/overlay2/d36d6653c74a21c75c78c19220be1443f056f379c8ce7982d5816b615edc2fbc/diff",
+                "MergedDir": "/var/lib/docker/overlay2/a32d3fccbbf4e3d282dff5cbaf95a2a3edbacc2924140a0cdf0602d663cbbcb6/merged",
+                "UpperDir": "/var/lib/docker/overlay2/a32d3fccbbf4e3d282dff5cbaf95a2a3edbacc2924140a0cdf0602d663cbbcb6/diff",
+                "WorkDir": "/var/lib/docker/overlay2/a32d3fccbbf4e3d282dff5cbaf95a2a3edbacc2924140a0cdf0602d663cbbcb6/work"
+            },
+            "Name": "overlay2"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:1c95c77433e8d7bf0f519c9d8c9ca967e2603f0defbf379130d9a841cca2e28e",
+                "sha256:19e4018f673e0bd6f89071308e633437e324816a8b86c8a3b17bf61014bf4ba8",
+                "sha256:837c29e379a88409911c018a4bbabdb3ad8b4be4c2a4038f8d2f3dcd1e1b7851",
+                "sha256:98d26e75a9486d1be1417cb8bf58d263a8c57c10ed206256f6092241641aeb7c",
+                "sha256:870e62daac4570cdab3bde9f52ec764afb9f5d512780e3b461f6f881870d4ad0",
+                "sha256:09e023609600c50eef6e8d8737f81a35d360165acb925de19cc12d2ea227ba21",
+                "sha256:a42697b071387fbc2f48e7847232578d8648505dfccbb8234dfffb93403eb933"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "2019-08-20T16:33:38.19867439+08:00"
+        }
+    }
+]
